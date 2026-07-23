@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "save_id": "__template__",
+    "saved_at": "2026-07-21T17:06:19.636395",
+    "version": "2.0.0",
+    "is_template": true
+  },
+  "game_data": {
+    "baseResources": {
+      "gold": 1000,
+      "food": 1000,
+      "threat": 0,
+      "slaves": 0,
+      "trainingSlaves": 1,
+      "rounds": 0,
+      "actionPoints": 3,
+      "maxActionPoints": 3,
+      "conqueredRegions": 0,
+      "normalGoblins": 5,
+      "warriorGoblins": 2,
+      "shamanGoblins": 0,
+      "paladinGoblins": 0
+    },
+    "exploration": {
+      "locations": [],
+      "continents": [],
+      "state": {
+        "scoutedLocations": [],
+        "conqueredLocations": []
+      }
+    },
+    "nest": {},
+    "history": {
+      "roundHistory": [],
+      "maxHistoryEntries": 100
+    },
+    "training": {
+      "characters": [],
+      "trainingMessages": []
+    },
+    "formation": {
+      "currentFormation": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "metadata": {
+      "gameVersion": "1.0.0",
+      "lastSaved": "2026-07-21T17:06:19.636395",
+      "totalPlayTime": 0,
+      "gameStartTime": "2026-07-21T17:06:19.636395"
+    }
+  },
+  "worldbook_data": {
+    "name": "哥布林巢穴-人物档案",
+    "entries": []
+  }
+}

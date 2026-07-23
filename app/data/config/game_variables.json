@@ -1,0 +1,24 @@
+{
+  "currentSaveId": "slot_1",
+  "enable_custom_api": true,
+  "custom_api_configs": [
+    {
+      "id": "config_1784624154553",
+      "name": "配置 1",
+      "config": {
+        "apiurl": "https://api.deepseek.com/v1/chat/completions",
+        "model": "deepseek-v4-pro",
+        "source": "openai",
+        "key": "sk-dc7581af9c2a44aba453eba820b51314"
+      }
+    }
+  ],
+  "custom_api_current_config_id": "config_1784624154553",
+  "hero_generation_modifier": 0.2,
+  "enable_full_custom_mode": false,
+  "enable_scout_prompt_input": true,
+  "chain_of_thought_location_generation": "[Chain of thought]\n在正式创作正文前，需要进行以下思考\n思考内容需要使用<think> </think>包裹，正文紧跟在</think>后\n<think>\n- 当前模式是什么？\n- 此模式是否需要不输出正文剧情，而是输出指定格式的JSON数据？\n- 当前位于什么大陆的什么区域？特色为何？ \n- 当前巢穴的状态如何？\n- 那么生成什么种族和类型的据点更合适或更有趣？\n- 怎样的据点守军数量比较合理和真实？（参考标准：村庄50-200人，城镇500-1500人，要塞1000-3000人，城市2000-8000人），是否配得上特殊单位？\n- 怎样的奖励比较合理和真实？（金币、食物、女性奴隶数量）\n- 是否可查阅据点征服记录，避免重复据点？\n- 最后确认：确认此模式的是否为json格式？\n</think>\n[/Chain of thought]",
+  "scout_reward_multiplier": 10,
+  "guideline_theme_library": {},
+  "summary_retained_dialogue_rounds": 2
+}
