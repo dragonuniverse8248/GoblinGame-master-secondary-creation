@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "save_id": "slot_0",
+    "saved_at": "2026-07-23T19:37:00.322839",
+    "version": "2.0.0",
+    "is_template": false
+  },
+  "game_data": {
+    "baseResources": {
+      "gold": 1000,
+      "food": 1000,
+      "threat": 0,
+      "slaves": 0,
+      "trainingSlaves": 1,
+      "rounds": 0,
+      "actionPoints": 3,
+      "maxActionPoints": 3,
+      "conqueredRegions": 0,
+      "normalGoblins": 5,
+      "warriorGoblins": 2,
+      "shamanGoblins": 0,
+      "paladinGoblins": 0
+    },
+    "exploration": {
+      "locations": [],
+      "continents": [],
+      "state": {
+        "scoutedLocations": [],
+        "conqueredLocations": []
+      }
+    },
+    "nest": {},
+    "history": {
+      "roundHistory": [],
+      "maxHistoryEntries": 100
+    },
+    "training": {
+      "characters": [],
+      "trainingMessages": []
+    },
+    "formation": {
+      "currentFormation": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "metadata": {
+      "gameVersion": "1.0.0",
+      "lastSaved": "2026-07-21T17:06:19.636395",
+      "totalPlayTime": 0,
+      "gameStartTime": "2026-07-21T17:06:19.636395"
+    }
+  },
+  "worldbook_data": {
+    "name": "哥布林巢穴-人物档案",
+    "entries": [
+      {
+        "uid": 1784806620201,
+        "name": "哥布林巢穴资源状态",
+        "enabled": true,
+        "strategy": {
+          "type": "constant",
+          "keys": [],
+          "keys_secondary": {
+            "logic": "and_any",
+            "keys": []
+          },
+          "scan_depth": "same_as_global"
+        },
+        "position": {
+          "type": "at_depth",
+          "role": "system",
+          "depth": 4,
+          "order": 115
+        },
+        "content": "<NestStatus>\n# 哥布林巢穴资源状态\n\n# 基础资源\n- 金币: 1,000\n- 食物: 1,000\n- 普通奴隶: 0\n- 高级女奴: 1\n- 普通哥布林: 100\n- 哥布林战士: 0\n- 哥布林萨满: 0\n- 哥布林圣骑士: 0\n\n# 时间信息\n- 当前时间: 帝国历1074年1月1日\n- 回合数: 0\n- 威胁度: 0\n\n# 大陆征服进度\n\n## 古拉尔大陆 🔄 征服中\n- 大陆征服进度: 0.0%\n- 区域进度:\n  - 🔄 巢穴附近: 0.0%\n  - 🔄 流放者之地: 0.0%\n\n\n# 说明\n- 这是哥布林巢穴的当前状态\n- 参考这些数据来考虑剧情发展情况\n</NestStatus>",
+        "probability": 100,
+        "recursion": {
+          "prevent_incoming": true,
+          "prevent_outgoing": true,
+          "delay_until": null
+        },
+        "effect": {
+          "sticky": null,
+          "cooldown": null,
+          "delay": null
+        },
+        "extra": {
+          "entry_type": "resources",
+          "created_at": "2026-07-23T11:37:00.201Z",
+          "updated_at": "2026-07-23T11:37:00.321Z"
+        }
+      }
+    ]
+  }
+}
