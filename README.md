@@ -5,7 +5,13 @@
 > **技术栈**: Vue 3 + TypeScript | Python FastAPI | LLM 驱动
 
 ---
+## 作者
+- **二创作者：dragonuniverse8248**
+- **原项目**：https://github.com/dragonuniverse8248/GoblinGame-master-secondary-creation
 
+- **原作者：北上**
+- **原项目**：https://github.com/Kitakamic/GoblinGame
+---
 ## 🌟 项目亮点
 
 - 🧠 **AI 驱动剧情**：由大语言模型 (LLM) 实时生成据点描述、英雄角色、战前对话、调教记录与战斗总结。
@@ -62,18 +68,19 @@
 - Node.js >= 18 (仅构建前端时必要)
 - 已配置的 LLM API Key (OpenAI 兼容格式即可)
 
-### 安装与运行
+## 安装与运行
+### 方法一：
 1. **克隆项目**
    ```bash
-   git clone https://github.com/your-username/goblin-nest.git
+   git clone https://github.com/dragonuniverse8248/GoblinGame-master-secondary-creation
    cd 哥布林巢穴前后端
    ```
 
 2. **配置 AI Key**
-   修改 `app/data/config/api_config.json` 文件，填入你的 LLM API 地址与 Key。
+   修改 `设置内的API配置` 文件，填入你的 LLM API 地址与 Key。
 
 3. **启动服务**
-   - **Windows 用户**: 双击 `app/start.bat或start.exe`
+   - **Windows 用户**: 双击 `app/start.bat`
    - **手动启动**:
      ```bash
      cd app
@@ -86,6 +93,29 @@
 
 > 💡 **提示**: 启动脚本已自动安装依赖，无需手动执行。
 
+### 方法二：
+1. **下载打包项目**
+   ```bash
+   打开：https://github.com/dragonuniverse8248/GoblinGame-master-secondary-creation/releases
+   下载app.zip
+   ```
+
+2. **配置 AI Key**
+   修改 `设置内的API配置` 文件，填入你的 LLM API 地址与 Key。
+
+3. **启动服务**
+   - **Windows 用户**: 双击 `或start.exe`
+   - **手动启动**:
+     ```bash
+     cd app
+     pip install -r requirements.txt
+     python main.py
+     ```
+
+4. **进入游戏**
+   浏览器访问 `http://localhost:8000`
+
+> 💡 **提示**: 启动main文件已经打包。
 ---
 
 ## ⚙️ 配置说明
